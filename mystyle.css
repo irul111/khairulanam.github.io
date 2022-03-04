@@ -1,0 +1,37 @@
+:root {
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(5, 5, 5, 0.925);
+    font-size: 12pt;
+    line-height: 0.5cm;
+}
+
+h1 {
+    color: rgb(12, 11, 11);
+    line-height: 1cm;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+fieldset,
+legend {
+    /* groupping */
+    background-color: rgb(202, 205, 50);
+    color: rgb(2, 2, 2);
+    border: rgb(10, 10, 10) 2px solid;
+    /* border-radius: 30px; */
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+   
+    padding: 5px;
+}
+
+body {
+    margin: 0.5cm 2cm;
+    background-color: rgb(224, 238, 29);
+}
+
+hr {
+    border: 1px solid rgb(10, 10, 10);
+}
